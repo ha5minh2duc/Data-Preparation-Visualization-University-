@@ -1,0 +1,11 @@
+Tóm tắt các bước implement thuật toán K-Means
+1. Chọn random K điểm trong tập huấn luyện làm các tâm cụm ban đầu.
+2. Phân mỗi điểm dữ liệu vào cụm có tâm gần nó nhất.
+3. Cập nhật tâm cụm bằng cách lấy trung bình cộng của các điểm đã được gán vào cụm đó.
+4. Dừng thuật toán khi việc phân cụm dữ liệu vào từng cụm ở bước 2 không thay đổi so với cụm ở vòng lặp trước đó.
+5. Quay lại bước 2.
+6. In ra các tâm cụm cuối cùng (do thuật toán tìm được) và visualize
+
+Đôi dòng nhận xét
+k = 3 => 3 cụm được phân loại khá chính xác 
+k = 4 => xảy ra hiện tượng chồng chéo giữa các cụm => chưa phân biệt hiệu quả bằng 3 cụm
